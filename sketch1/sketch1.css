@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.container .one{
+    background: #6650D5;
+    height: 40vh;
+    width: 40vw;
+}
+
+.container .two{
+    background: #FF6464;
+    height: 40vh;
+    width: 60vw;
+}
+
+.container .three{
+    background: #FFA664;
+    height: 60vh;
+    width: 60vw;
+}
+.container .four{
+    background: #FF6464;
+    height: 60vh;
+    width: 40vw;
+}
+.center-box{
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+    height: 50vh;
+    width: 60vw;
+    top:25vh;
+    left: 20vw;
+    border-radius: 1rem;
+    overflow:hidden
+    
+}
+.center-box .elements{
+    margin:10vh 10vw;
+    text-align: center;
+}
+.center-box .quote{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #0F0F2B;
+}
+.image{
+    height: 3.6vh;
+    width: 3.6vw;
+    margin: auto;
+
+}
+.image img{
+    object-fit: contain;
+    width: 100%;
+}
+.author{
+    margin-top: 3.5vh;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #0F0F2B;
+}
+.slider-icons{
+    margin: 7vh auto;
+}
+
+
+

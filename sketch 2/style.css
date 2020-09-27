@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap');
+body{
+    margin: 0 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #241381;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(58.85%,#ffffff), color-stop(58.85%,#241381), color-stop(100%,#241381)); /* Chrome,Safari4+ */
+}
+
+.navbar img{
+    width: 50px;
+    object-fit: contain;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.navbar ul{
+    margin-left: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 1vw;
+    list-style-type: none;
+    color: #ffffff;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.body-section{
+    display: flex;
+}
+
+.body-section .left-text{
+    width: 60vw;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4vw;
+    margin: auto 10vw;
+    line-height: normal;
+}
+
+.body-section .left-text h1{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: left;
+    line-height: 62px;
+    color: #0F0F2B;
+}
+.body-section .left-text p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 27px;
+    color: #0F0F2B;
+}
+.body-section .left-text button{
+    width: 200px;
+    margin-top: 10px;
+    background: #442EBA;
+    padding:10px 10px;
+    border: none;
+    color: white;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.body-section img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.footer-section{
+    background: #241381; 
+    display: flex;
+    padding: 10vh 10vw;
+}
+.footer-section .left-footer{
+    width: 40vw;
+    line-height: normal;
+}
+.footer-section .left-footer h2{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.footer-section .left-footer p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footer-section .right-footer{
+    width: 60vw;
+    margin: auto;
+    padding-left: 10vw;
+}
+
+.footer-section .right-footer input{
+    border: none;
+}
+.footer-section .right-footer input[type=text]{
+    padding: 15px 10px;
+    width: 300px;
+}
+.footer-section .right-footer input[type=submit]{
+    padding: 15px 10px;
+    width: 100px;
+    background: #442EBA;
+    color: white;
+}
+.footer-section .right-footer input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0F0F2B;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.footer-section .right-footer p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B6A9FE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
