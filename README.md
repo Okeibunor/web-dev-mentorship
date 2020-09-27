@@ -1,6 +1,7 @@
 # web-dev-mentorship
 Web Development Mentorship
-HTML and CSS Code to Sketch Files from uidesigndaily.com
+HTML and CSS Code to Sketch Files from https://uidesigndaily.com/
+
 Namely: 
 
 SKETCH 1: https://uidesigndaily.com/posts/sketch-landing-page-website-subscribe-day-1173
